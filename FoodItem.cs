@@ -11,14 +11,17 @@ namespace Mission3
 
         public string name = "";
         public string category = "";
-        public string quantity = "";
+        public int quantityNum = 0;
+        public string quantityUnit = "";
         public string expiration = "";
 
-        public FoodItem (string name1, string category1, string quantity1, string expiration1)
+        //Food item constructor
+        public FoodItem (string name1, string category1, int quantityNum1, string quantityUnit1, string expiration1)
         {
             name = name1;
             category = category1;
-            quantity = quantity1;
+            quantityNum = quantityNum1;
+            quantityUnit = quantityUnit1;
             expiration = expiration1;
 
         }
